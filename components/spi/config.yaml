@@ -1,6 +1,6 @@
-sharedSecret: <shared-secret>
+sharedSecret: <created-with-`pwgen 128 -n 1`>
 serviceProviders:
 - type: GitHub
-  clientId: <github-client-id>
-  clientSecret: <github-client-secret>
-baseUrl: https://spi-oauth-route-spi-system.apps.<cluster-url>
+  clientId: <client-id-from-github-app>
+  clientSecret: <client-secret-from-github-app>
+baseUrl: https://github.com/login/oauth/authorize
