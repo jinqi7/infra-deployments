@@ -1,12 +1,12 @@
 [
   {
-    "value": "https://spi-vault-spi-system.apps.crc.testing",
+    "op": "replace",
     "path": "/data/VAULTHOST",
-    "op": "replace"
+    "value": "https://spi-vault-spi-system.apps.crc.testing"
   },
   {
-    "value": "kubernetes",
+    "op": "replace",
     "path": "/data/VAULTAUTHMETHOD",
-    "op": "replace"
+    "value": "kubernetes"
   }
 ]

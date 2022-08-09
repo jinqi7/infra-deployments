@@ -37,6 +37,10 @@ patches:
       kind: Deployment
       name: controller-manager|oauth-service
     path: insecuretls-patch.json
+  - target:
+      kind: Deployment
+      name: controller-manager|oauth-service
+    path: insecuretls-patch.json
 # we plan to use approle authentication, but it's not ready yet
 # with these dummy secrets, we're satisfying spi deployments, but they're not really used
 secretGenerator:
